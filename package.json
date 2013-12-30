@@ -1,0 +1,24 @@
+{
+  "name": "tizen-grunt",
+  "version": "0.0.1",
+  "description": "Example Tizen project using Grunt Task Runner (http://gruntjs.com/)",
+  "author": "rafal.galka@modernweb.pl",
+  "repository": "git@github.com:rafalgalka/tizen-grunt.git",
+  "tizen": {
+    "profile": "developer"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "load-grunt-tasks": "0.2.x",
+    "grunt-usemin": "~0.1.12",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-cssmin": "~0.6.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-tizen": "https://github.com/rafalgalka/grunt-tizen/tarball/develop",
+    "grunt-shell": "~0.4.0",
+    "grunt-contrib-watch": "0.5.x",
+    "grunt-bower-postinst": "~0.2.1",
+    "require-xml": "0.0.1"
+  }
+}

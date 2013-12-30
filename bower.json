@@ -1,0 +1,17 @@
+{
+  "name": "tizen-grunt",
+  "version": "0.0.1",
+  "authors": [
+    "Rafal Galka <rafal.galka@modernweb.pl>"
+  ],
+  "private": true,
+  "ignore": [
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1.8.2",
+    "jquery-mobile": "1.2.0"
+  }
+}

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+npm install
+bower install
+grunt bower_postinst
+
+echo "Done. Now you can run "grunt --help" to see available tasks."
